@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        margin-bottom: -10px;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+        margin-left: 500px;
+      }
+
+      input {
+        margin-left: 100px;
+        display: inline-flex;
+      }
+
+      button {
+        display: inline-block;
+        margin-left: 600px;
+      }
+      select {
+        margin-left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div>
+        <label for="Full Name">Full Name: </label>
+        <input
+          type="text"
+          placeholder="Enter Name"
+          id="Full Name"
+          value="Vincent Maverick Durano"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Username">Username:</label>
+        <input
+          type="text"
+          placeholder="Enter username"
+          id="Username"
+          value="Vinz"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Password">Password:</label>
+        <input
+          type="password"
+          placeholder="Enter password"
+          id="Password"
+          value="tonystar44"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="rPassword">Re Password:</label>
+        <input
+          type="password"
+          placeholder="Enter password agin"
+          id="rPassword"
+          value="tonystar44"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="add">Address:</label>
+        <input
+          type="text"
+          placeholder="Enter Address"
+          id="add"
+          value="Cebu ,Philippines"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          name="age"
+          min="1"
+          max="100"
+          step="1"
+          value="22"
+          placeholder="Enter Age"
+          id="age"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="Male" id="gender">Male</option>
+          <option value="Female" id="gender">Female</option>
+        </select>
+      </div>
+      <br />
+      <button class="btn warning" type="submit" value="submit">save</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cont {
+        width: 700px;
+        height: 700px;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0px;
+
+        background-color: rgb(104, 0, 57);
+      }
+
+      label {
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+        margin-left: -200px;
+        color: rgba(255, 255, 255, 0.879);
+      }
+
+      input {
+        margin-left: 100px;
+        display: inline-flex;
+      }
+
+      select {
+        margin-left: -75px;
+        display: inline-flex;
+      }
+
+      button {
+        width: 500px;
+        height: 40px;
+        margin-left: -130px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-weight: bolder;
+        font-size: larger;
+        color: rgb(69, 67, 67);
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(148, 0, 81)">
+    <div class="cont">
+      <form style="text-align: center">
+        <br />
+        <br />
+        <br />
+        <label for="nm">Name:</label>
+        <input id="nm" type="text" placeholder="your name" />
+        <br />
+        <br />
+        <label for="em">Email:</label>
+        <input id="em" type="email" placeholder="your email" />
+        <br />
+        <br />
+        <label for="pa">Password:</label>
+        <input id="pa" type="password" />
+        <br />
+        <br />
+        <label for="ph">Phone Number:</label>
+        <input id="ph" type="text" placeholder="" />
+        <br />
+        <br />
+
+        <label for="gender" style="margin-left: -230px">Gender:</label>
+
+        <label for="gender" style="width: 5px; height: 5px; margin-left: 10px"
+          >Male:</label
+        >
+        <input
+          type="radio"
+          name="gender"
+          value="male"
+          style="width: 13x; height: 13px; margin-left: 35px"
+        />
+
+        <label for="gender" style="width: 5px; height: 5px; margin-left: 10px"
+          >Female:</label
+        >
+        <input
+          type="radio"
+          name="gender"
+          value="female"
+          style="width: 13px; height: 13px; margin-left: 50px"
+        />
+
+        <label for="gender" style="width: 5px; height: 5px; margin-left: 10px"
+          >Others:</label
+        >
+        <input
+          input
+          type="radio"
+          name="gender"
+          value="other"
+          style="width: 13px; height: 13px; margin-left: 50px"
+        />
+        <br />
+        <br />
+        <label for="" style="margin-right: 220px">Languages:</label>
+        <select name="lang" id="lang">
+          <option value="none" id="lang">Select language</option>
+          <option value="hindi" id="lang">Hindi</option>
+          <option value="english" id="lang">English</option>
+        </select>
+        <br />
+        <br />
+        <label for="ezp">Zip Code:</label>
+        <input id="ezp" type="number" placeholder="" />
+        <br />
+        <br />
+        <br />
+        <label for="ab">About:</label>
+        <input
+          id="ab"
+          type="text"
+          placeholder="Write about yourself.."
+          style="height: 50px"
+        />
+        <br />
+        <br />
+        <button class="btn warning" type="submit" value="submit">
+          Register
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

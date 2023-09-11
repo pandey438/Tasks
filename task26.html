@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      .cont {
+        width: 700px;
+        height: 700px;
+        font-weight: bold;
+      }
+
+      img {
+        width: 40%;
+        border-radius: 50%;
+        margin-left: 700px;
+        margin-top: 50px;
+      }
+
+      form {
+        margin-left: 600px;
+      }
+
+      input {
+        width: 500px;
+        height: 25px;
+        color: beige;
+      }
+      #in {
+        width: 800px;
+      }
+      button {
+        border-style: none;
+        background-color: rgb(22, 154, 22);
+        width: 510px;
+        height: 30px;
+        color: white;
+      }
+
+      #button2 {
+        border-style: none;
+        background-color: red;
+        width: 70px;
+        height: 35px;
+        color: white;
+        margin-top: 12px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      .cont2 {
+        background-color: lightgrey;
+        width: 510px;
+        height: 50px;
+        display: flex;
+      }
+
+      .flex {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">
+      <img src="img_avatar2.png" alt="img here" />
+      <form>
+        <label for="Use">Username</label><br />
+        <input type="text" placeholder="Enter Username" id="Use" />
+        <br />
+        <br />
+        <label for="pass">Password</label><br />
+        <input type="password" placeholder="Enter Username" id="pass" />
+        <br />
+        <br />
+        <button type="submit" value="submit">Login</button><br /><br />
+        <div class="flex">
+          <input type="checkbox" id="in" value="rem" />
+          <label for="rem">Remember me</label>
+        </div>
+        <br />
+        <div class="cont2">
+          <button type="submit" value="submit" id="button2">Cancel</button
+          ><br />
+          <a
+            href="#"
+            style="
+              margin-left: 325px;
+              margin-top: 20px;
+              color: black;
+              font-weight: lighter;
+            "
+            >forgot password ?</a
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

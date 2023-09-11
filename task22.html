@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #ul1 {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        padding-bottom: 0;
+        background-color: white;
+        width: 250px;
+        border: 1px solid black;
+        border-style: double;
+        display: block;
+      }
+
+      #ul2 {
+        list-style: none;
+        margin: 0px;
+        padding: 10px;
+        padding-right: 0px;
+        background-color: white;
+        width: 373px;
+        border: 1px solid black;
+        border-style: double;
+
+        float: left;
+      }
+
+      #a1 {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        background-color: lightblue;
+        font-weight: bolder;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      #a2 {
+        display: block;
+        padding-right: 0px;
+        padding: 15px;
+        text-decoration: none;
+        background-color: lightgray;
+        font-weight: bolder;
+        font-family: "Times New Roman", Times, serif;
+      }
+      li #a1:hover {
+        background-color: rgb(254, 159, 43);
+        color: white;
+      }
+
+      li #a2:hover {
+        background-color: gray;
+        color: white;
+      }
+
+      .cont {
+        margin-top: 50px;
+        margin-left: 50px;
+
+        width: 300px;
+        text-align: center;
+      }
+
+      .xray {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="xray" style="margin-left: 150px">
+      <div class="cont">
+        <h3>Vertical Navigation bar</h3>
+        <ul id="ul1">
+          <li><a href="#" id="a1">Home</a></li>
+          <li><a href="#" id="a1">Java</a></li>
+          <li><a href="#" id="a1">CSS</a></li>
+          <li><a href="#" id="a1">HTML</a></li>
+          <li><a href="#" id="a1">Bootstrap</a></li>
+        </ul>
+      </div>
+      <div class="cont" style="margin-top: 150px">
+        <h3>Vertical Navigation bar</h3>
+        <ul id="ul2">
+          <li style="float: left; border-right: 1px solid blue">
+            <a href="#" id="a2">Home</a>
+          </li>
+          <li style="float: left; border-right: 1px solid blue">
+            <a href="#" id="a2">Java</a>
+          </li>
+
+          <li style="float: left; border-right: 1px solid blue">
+            <a href="#" id="a2">HTML</a>
+          </li>
+          <li style="float: left; border-right: 1px solid blue">
+            <a href="#" id="a2">CSS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
